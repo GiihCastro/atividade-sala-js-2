@@ -5,6 +5,7 @@ button.addEventListener('click',function(e) {
   document.querySelector('h1').classList.toggle('sumiu')
 })
 
+button.addEventListener('click',function(e) {
 let name = prompt('Por favor, escreva seu nome!')
 
 if (name) {
@@ -17,3 +18,4 @@ if (name) {
 } else {
   console.log("Você não digitou um nome.")
 }
+})
